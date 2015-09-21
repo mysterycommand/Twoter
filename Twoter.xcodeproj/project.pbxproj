@@ -14,6 +14,7 @@
 		84D5C72C1BB09FD5000BA06C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D5C72A1BB09FD5000BA06C /* LaunchScreen.storyboard */; };
 		84D5C7371BB09FD5000BA06C /* TwoterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5C7361BB09FD5000BA06C /* TwoterTests.swift */; };
 		84D5C7421BB09FD5000BA06C /* TwoterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5C7411BB09FD5000BA06C /* TwoterUITests.swift */; };
+		A121F06A2BBF74AF88788F34 /* libPods-Twoter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49AC00747C25DA54A6F73C84 /* libPods-Twoter.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49AC00747C25DA54A6F73C84 /* libPods-Twoter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Twoter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D8A873183AF05D55D7BC4B /* Pods-Twoter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twoter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Twoter/Pods-Twoter.debug.xcconfig"; sourceTree = "<group>"; };
+		76C0D32A60A5DFE8BC800E65 /* Pods-Twoter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twoter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twoter/Pods-Twoter.release.xcconfig"; sourceTree = "<group>"; };
 		84D5C71E1BB09FD5000BA06C /* Twoter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twoter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D5C7211BB09FD5000BA06C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D5C7231BB09FD5000BA06C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A121F06A2BBF74AF88788F34 /* libPods-Twoter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		748FDD3DE24F6B9C39286E77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72D8A873183AF05D55D7BC4B /* Pods-Twoter.debug.xcconfig */,
+				76C0D32A60A5DFE8BC800E65 /* Pods-Twoter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84D5C7151BB09FD5000BA06C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +95,8 @@
 				84D5C7351BB09FD5000BA06C /* TwoterTests */,
 				84D5C7401BB09FD5000BA06C /* TwoterUITests */,
 				84D5C71F1BB09FD5000BA06C /* Products */,
+				748FDD3DE24F6B9C39286E77 /* Pods */,
+				F74F277C45996E1761E90155 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +141,14 @@
 			path = TwoterUITests;
 			sourceTree = "<group>";
 		};
+		F74F277C45996E1761E90155 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49AC00747C25DA54A6F73C84 /* libPods-Twoter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84D5C7461BB09FD5000BA06C /* Build configuration list for PBXNativeTarget "Twoter" */;
 			buildPhases = (
+				8581B710028B52CCBB6EE34E /* Check Pods Manifest.lock */,
 				84D5C71A1BB09FD5000BA06C /* Sources */,
 				84D5C71B1BB09FD5000BA06C /* Frameworks */,
 				84D5C71C1BB09FD5000BA06C /* Resources */,
+				2A5DCCCE5D6CD3B8DEBC1FBC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +275,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A5DCCCE5D6CD3B8DEBC1FBC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twoter/Pods-Twoter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8581B710028B52CCBB6EE34E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84D5C71A1BB09FD5000BA06C /* Sources */ = {
@@ -394,6 +453,7 @@
 		};
 		84D5C7471BB09FD5000BA06C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D8A873183AF05D55D7BC4B /* Pods-Twoter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Twoter/Info.plist;
@@ -405,6 +465,7 @@
 		};
 		84D5C7481BB09FD5000BA06C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C0D32A60A5DFE8BC800E65 /* Pods-Twoter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Twoter/Info.plist;
@@ -481,6 +542,7 @@
 				84D5C7481BB09FD5000BA06C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84D5C7491BB09FD5000BA06C /* Build configuration list for PBXNativeTarget "TwoterTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +551,7 @@
 				84D5C74B1BB09FD5000BA06C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84D5C74C1BB09FD5000BA06C /* Build configuration list for PBXNativeTarget "TwoterUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +560,7 @@
 				84D5C74E1BB09FD5000BA06C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
