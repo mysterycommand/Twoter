@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D5C7221BB09FD5000BA06C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5C7211BB09FD5000BA06C /* AppDelegate.swift */; };
+		84D5C7241BB09FD5000BA06C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5C7231BB09FD5000BA06C /* ViewController.swift */; };
+		84D5C7271BB09FD5000BA06C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D5C7251BB09FD5000BA06C /* Main.storyboard */; };
+		84D5C7291BB09FD5000BA06C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D5C7281BB09FD5000BA06C /* Assets.xcassets */; };
+		84D5C72C1BB09FD5000BA06C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D5C72A1BB09FD5000BA06C /* LaunchScreen.storyboard */; };
+		84D5C7371BB09FD5000BA06C /* TwoterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5C7361BB09FD5000BA06C /* TwoterTests.swift */; };
+		84D5C7421BB09FD5000BA06C /* TwoterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D5C7411BB09FD5000BA06C /* TwoterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D5C7331BB09FD5000BA06C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D5C7161BB09FD5000BA06C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D5C71D1BB09FD5000BA06C;
+			remoteInfo = Twoter;
+		};
+		84D5C73E1BB09FD5000BA06C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D5C7161BB09FD5000BA06C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D5C71D1BB09FD5000BA06C;
+			remoteInfo = Twoter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D5C71E1BB09FD5000BA06C /* Twoter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twoter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D5C7211BB09FD5000BA06C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84D5C7231BB09FD5000BA06C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84D5C7261BB09FD5000BA06C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D5C7281BB09FD5000BA06C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D5C72B1BB09FD5000BA06C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D5C72D1BB09FD5000BA06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D5C7321BB09FD5000BA06C /* TwoterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D5C7361BB09FD5000BA06C /* TwoterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoterTests.swift; sourceTree = "<group>"; };
+		84D5C7381BB09FD5000BA06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D5C73D1BB09FD5000BA06C /* TwoterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D5C7411BB09FD5000BA06C /* TwoterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoterUITests.swift; sourceTree = "<group>"; };
+		84D5C7431BB09FD5000BA06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D5C71B1BB09FD5000BA06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D5C72F1BB09FD5000BA06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D5C73A1BB09FD5000BA06C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D5C7151BB09FD5000BA06C = {
+			isa = PBXGroup;
+			children = (
+				84D5C7201BB09FD5000BA06C /* Twoter */,
+				84D5C7351BB09FD5000BA06C /* TwoterTests */,
+				84D5C7401BB09FD5000BA06C /* TwoterUITests */,
+				84D5C71F1BB09FD5000BA06C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D5C71F1BB09FD5000BA06C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D5C71E1BB09FD5000BA06C /* Twoter.app */,
+				84D5C7321BB09FD5000BA06C /* TwoterTests.xctest */,
+				84D5C73D1BB09FD5000BA06C /* TwoterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D5C7201BB09FD5000BA06C /* Twoter */ = {
+			isa = PBXGroup;
+			children = (
+				84D5C7211BB09FD5000BA06C /* AppDelegate.swift */,
+				84D5C7231BB09FD5000BA06C /* ViewController.swift */,
+				84D5C7251BB09FD5000BA06C /* Main.storyboard */,
+				84D5C7281BB09FD5000BA06C /* Assets.xcassets */,
+				84D5C72A1BB09FD5000BA06C /* LaunchScreen.storyboard */,
+				84D5C72D1BB09FD5000BA06C /* Info.plist */,
+			);
+			path = Twoter;
+			sourceTree = "<group>";
+		};
+		84D5C7351BB09FD5000BA06C /* TwoterTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D5C7361BB09FD5000BA06C /* TwoterTests.swift */,
+				84D5C7381BB09FD5000BA06C /* Info.plist */,
+			);
+			path = TwoterTests;
+			sourceTree = "<group>";
+		};
+		84D5C7401BB09FD5000BA06C /* TwoterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D5C7411BB09FD5000BA06C /* TwoterUITests.swift */,
+				84D5C7431BB09FD5000BA06C /* Info.plist */,
+			);
+			path = TwoterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D5C71D1BB09FD5000BA06C /* Twoter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D5C7461BB09FD5000BA06C /* Build configuration list for PBXNativeTarget "Twoter" */;
+			buildPhases = (
+				84D5C71A1BB09FD5000BA06C /* Sources */,
+				84D5C71B1BB09FD5000BA06C /* Frameworks */,
+				84D5C71C1BB09FD5000BA06C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twoter;
+			productName = Twoter;
+			productReference = 84D5C71E1BB09FD5000BA06C /* Twoter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D5C7311BB09FD5000BA06C /* TwoterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D5C7491BB09FD5000BA06C /* Build configuration list for PBXNativeTarget "TwoterTests" */;
+			buildPhases = (
+				84D5C72E1BB09FD5000BA06C /* Sources */,
+				84D5C72F1BB09FD5000BA06C /* Frameworks */,
+				84D5C7301BB09FD5000BA06C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D5C7341BB09FD5000BA06C /* PBXTargetDependency */,
+			);
+			name = TwoterTests;
+			productName = TwoterTests;
+			productReference = 84D5C7321BB09FD5000BA06C /* TwoterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D5C73C1BB09FD5000BA06C /* TwoterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D5C74C1BB09FD5000BA06C /* Build configuration list for PBXNativeTarget "TwoterUITests" */;
+			buildPhases = (
+				84D5C7391BB09FD5000BA06C /* Sources */,
+				84D5C73A1BB09FD5000BA06C /* Frameworks */,
+				84D5C73B1BB09FD5000BA06C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D5C73F1BB09FD5000BA06C /* PBXTargetDependency */,
+			);
+			name = TwoterUITests;
+			productName = TwoterUITests;
+			productReference = 84D5C73D1BB09FD5000BA06C /* TwoterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D5C7161BB09FD5000BA06C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mystery Command";
+				TargetAttributes = {
+					84D5C71D1BB09FD5000BA06C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					84D5C7311BB09FD5000BA06C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 84D5C71D1BB09FD5000BA06C;
+					};
+					84D5C73C1BB09FD5000BA06C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 84D5C71D1BB09FD5000BA06C;
+					};
+				};
+			};
+			buildConfigurationList = 84D5C7191BB09FD5000BA06C /* Build configuration list for PBXProject "Twoter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D5C7151BB09FD5000BA06C;
+			productRefGroup = 84D5C71F1BB09FD5000BA06C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D5C71D1BB09FD5000BA06C /* Twoter */,
+				84D5C7311BB09FD5000BA06C /* TwoterTests */,
+				84D5C73C1BB09FD5000BA06C /* TwoterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D5C71C1BB09FD5000BA06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5C72C1BB09FD5000BA06C /* LaunchScreen.storyboard in Resources */,
+				84D5C7291BB09FD5000BA06C /* Assets.xcassets in Resources */,
+				84D5C7271BB09FD5000BA06C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D5C7301BB09FD5000BA06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D5C73B1BB09FD5000BA06C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D5C71A1BB09FD5000BA06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5C7241BB09FD5000BA06C /* ViewController.swift in Sources */,
+				84D5C7221BB09FD5000BA06C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D5C72E1BB09FD5000BA06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5C7371BB09FD5000BA06C /* TwoterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D5C7391BB09FD5000BA06C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5C7421BB09FD5000BA06C /* TwoterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D5C7341BB09FD5000BA06C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D5C71D1BB09FD5000BA06C /* Twoter */;
+			targetProxy = 84D5C7331BB09FD5000BA06C /* PBXContainerItemProxy */;
+		};
+		84D5C73F1BB09FD5000BA06C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D5C71D1BB09FD5000BA06C /* Twoter */;
+			targetProxy = 84D5C73E1BB09FD5000BA06C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D5C7251BB09FD5000BA06C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D5C7261BB09FD5000BA06C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D5C72A1BB09FD5000BA06C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D5C72B1BB09FD5000BA06C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D5C7441BB09FD5000BA06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D5C7451BB09FD5000BA06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D5C7471BB09FD5000BA06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Twoter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mysterycommand.Twoter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84D5C7481BB09FD5000BA06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Twoter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mysterycommand.Twoter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84D5C74A1BB09FD5000BA06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwoterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mysterycommand.TwoterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twoter.app/Twoter";
+			};
+			name = Debug;
+		};
+		84D5C74B1BB09FD5000BA06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwoterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mysterycommand.TwoterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twoter.app/Twoter";
+			};
+			name = Release;
+		};
+		84D5C74D1BB09FD5000BA06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwoterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mysterycommand.TwoterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Twoter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		84D5C74E1BB09FD5000BA06C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwoterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mysterycommand.TwoterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Twoter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D5C7191BB09FD5000BA06C /* Build configuration list for PBXProject "Twoter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5C7441BB09FD5000BA06C /* Debug */,
+				84D5C7451BB09FD5000BA06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D5C7461BB09FD5000BA06C /* Build configuration list for PBXNativeTarget "Twoter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5C7471BB09FD5000BA06C /* Debug */,
+				84D5C7481BB09FD5000BA06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84D5C7491BB09FD5000BA06C /* Build configuration list for PBXNativeTarget "TwoterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5C74A1BB09FD5000BA06C /* Debug */,
+				84D5C74B1BB09FD5000BA06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84D5C74C1BB09FD5000BA06C /* Build configuration list for PBXNativeTarget "TwoterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5C74D1BB09FD5000BA06C /* Debug */,
+				84D5C74E1BB09FD5000BA06C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D5C7161BB09FD5000BA06C /* Project object */;
+}
