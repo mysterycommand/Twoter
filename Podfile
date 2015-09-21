@@ -1,15 +1,10 @@
 platform :ios, '9.0'
 
-target 'Twoter' do
-	pod "AFNetworking"
-	pod "BDBOAuth1Manager"
-end
+use_frameworks!
 
-target 'TwoterTests' do
+# Yep.
+inhibit_all_warnings!
 
-end
-
-target 'TwoterUITests' do
-
-end
-
+pod "AFNetworking"
+pod "BDBOAuth1Manager"
+pod "SwiftyJSON"
